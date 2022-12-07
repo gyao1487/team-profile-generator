@@ -1,6 +1,4 @@
-<!-- Rough draft for template-->
-
-<!DOCTYPE html>
+const finalHTML = `<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -26,5 +24,6 @@
         
     </main>
     
-</body>
-</html>
+</body>`
+
+module.exports = finalHTML
