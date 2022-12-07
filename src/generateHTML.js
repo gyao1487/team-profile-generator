@@ -1,5 +1,7 @@
 //Dependencies
 
+const { fstat } = require("fs");
+
 // Template goes here
 
 
@@ -29,3 +31,5 @@ function generateHTML() {
 //function createEngineer()
 
 module.exports = generateHTML
+
+//fs.appendFile
