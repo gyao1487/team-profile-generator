@@ -1,8 +1,6 @@
 //Dependencies
-
 const { fstat } = require("fs");
 
-// Template goes here
 //Manager Template
 function mngHTML(data) {
     return `
@@ -31,6 +29,7 @@ function engHTML (data) {
     </div>`
 }
 
+//Intern Template
 function intHTML (data) {
     return `
     <div class="card intern">
@@ -44,6 +43,31 @@ function intHTML (data) {
     </div>`
 }
 
+//Full HTML Template
+function combineHTML(data) {
+    return`
+            <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="stylesheet" href="./style.css">
+            <link rel="stylesheet" href="./normalize.css">
+            <title>Team Roster</title>
+        </head>
+        <body>
+            <header>
+                <h1>My Team</h1>
+            </header>
+            <main>
+                ${data}
+            </main>
+            
+        </body>
+        </html>`
+
+}
 
 
 // Loop through your team array
@@ -56,6 +80,6 @@ function intHTML (data) {
 // Each type of employee will have their own template
 //function createEngineer()
 
-module.exports = {mngHTML, engHTML, intHTML}
+module.exports = {mngHTML, engHTML, intHTML, combineHTML}
 
 //fs.appendFile

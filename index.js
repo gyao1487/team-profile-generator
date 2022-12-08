@@ -16,7 +16,7 @@ async function init() {
     try {
        await app.mngPrompt();
        //function for writing HTML
-       
+    //    window.open('http://localhost:52330/dist/index.html');
     } catch (err) {
         console.log("Sorry, we've encountered an error!")
     }
