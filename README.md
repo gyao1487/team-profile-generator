@@ -13,7 +13,7 @@ A simple Node.js command-line application that generates an HTML webpage from in
 
 ## Demo
 ![Sample Generated Webpage](./dist/assets/screenshot.PNG)
-![Click here for full video demo](https://drive.google.com/file/d/1TKhSh7rVBaHuNBID_GDu0QAGCcORkWMz/view)
+[Click here for full video demo](https://drive.google.com/file/d/1TKhSh7rVBaHuNBID_GDu0QAGCcORkWMz/view)
 
 ## Installation
 1. Clone the repository to your local machine using `git clone` 
