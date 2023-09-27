@@ -34,7 +34,7 @@ Please refer to the license in the repo
 
 ## Credits
 * Built by Grace Yao
-* Card layout inspired by ![Jared Parsons](https://codepen.io/jared-parsons)
+* Card layout inspired by [Jared Parsons](https://codepen.io/jared-parsons)
 
 ## Collaborations
 Collaborations and feedback are welcome! If you have any suggestions, enhancements, or bug reports, please feel free to open an issue or submit a pull request. Additionally, if you have any questions or need assistance with the application, don't hesitate to reach out. 
